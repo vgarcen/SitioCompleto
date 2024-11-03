@@ -1,0 +1,108 @@
+/* Estilos para el contenedor principal */
+main {
+    display: flex;
+    width: 100%;
+    gap: 30px; /* Espacio entre el menú y la sección */
+    margin-top: 20px; /* Espacio debajo del header */
+}
+
+/* Estilos para la navegación */
+nav {
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px; /* Espacio a la izquierda */
+}
+
+nav a {
+    background: linear-gradient(45deg, #eedddf80, #0923b7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-bottom: 10px; /* Espacio entre enlaces */
+}
+
+nav a:hover {
+    background: linear-gradient(45deg, #26b70946, #f7b525);
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+/* Estilos para la sección */
+section {
+    padding: 5px;
+    width: 75%;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transición suave */
+}
+
+section:hover {
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra al pasar el ratón */
+    transform: scale(1.02); /* Efecto de aumento al pasar el ratón */
+}
+
+/* Estilos para el encabezado */
+header {
+    background: linear-gradient(45deg, #25f737, #89b709);
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; /* Deja espacio para el menú */
+    padding: 20px; /* Añadir espacio interno */
+    text-align: center; /* Centrar texto */
+}
+
+header:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra al pasar el ratón */
+    transform: scale(1.01); /* Efecto de aumento al pasar el ratón */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+/* Estilos para el aside */
+aside {
+    float: right; /* Alineación a la derecha */
+    width: 30%; /* Ancho del aside */
+    padding: 10px; /* Espacio interno */
+    margin: 5px; /* Espacio externo */
+    font-style: italic; /* Cursiva */
+    color: #4361ee; /* Color del texto */
+    box-shadow: inset 5px 0 5px -5px #4895ef; /* Sombra interna */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background: linear-gradient(90deg, #4895ef, #4361ee);
+    color: #fff;
+    text-align: center; /* Centrar texto */
+    padding: 10px; /* Espacio interno */
+    margin-top: 20px; /* Espacio arriba */
+    clear: both; /* Evita superposición con elementos flotantes */
+}
+
+footer a {
+    color: #fff; /* Color del enlace */
+    font-weight: bold; /* Negrita */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+footer a:hover {
+    color: #d4a5e8; /* Color al pasar el ratón */
+}
+.dark-theme {
+    background-color: #333;
+    color: white;
+}
+
+nav a.highlight {
+    color: blue;
+    font-weight: bold;
+}
+.sec3{
+    width: 90%;
+    margin: 0 auto; /* Centra la sección horizontalmente */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Centra el contenido de texto */
+    
+}
