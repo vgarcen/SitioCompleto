@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi vida este 2024 con el segundo BY</title>
+    <link href="css/estilos.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Otro ejemplo para otro sitio</h1>
+        <button onclick="toggleTheme()">Prueba otro color</button>
+        <p>Visitas: <span id="visitCounter"></span></p>
+    </header>
+    <main>
+        <nav>
+            <a href="#" onclick="highlightLink(this)">Inicio</a>
+            <a href="#">Segunda página</a>
+            <a href="#">tercera página</a>
+            <a href="#">Cuarta página</a>
+        </nav>
+        <section>
+            <h2>Título 1</h2>
+            <button onclick="toggleContent('contenido')">Mostrar/Ocultar la verdad</button>
+            <div id="contenido" style="display: none;">
+                <p>Información</p>
+            </div>
+
+            <h2>Título 2</h2>
+            <button onclick="toggleContent('content')">Mostrar/Ocultar la verdad</button>
+            <div id="content" style="display: none;">
+                <p>Información</p>
+            </div>
+            <aside>
+                <p style="font-size: 22px;"Nombre autor</p>
+            </aside>
+        </section>
+        
+        <section>
+            <h2>Título 1</h2>
+            <button onclick="toggleContent('contenido2')">Mostrar/Ocultar la verdad</button>
+            <div id="contenido2" style="display: none;">
+                <p>Información</p>
+            </div>
+
+            <h2>Otro título</h2>
+            <button onclick="toggleContent('content2')">Mostrar/Ocultar la verdad</button>
+            <div id="content2" style="display: none;">
+                <p>Información</p>
+            </div>
+            <aside>
+                <p style="font-size: 22px;">Autores</p>
+            </aside>
+        </section>
+       
+    </main>
+    <br>
+    <section class="sec3">
+        <h2>Títulos</h2>
+        <button onclick="toggleContent('contenido3')">Mostrar/Ocultar la verdad</button>
+        <div id="contenido3" style="display: none;">
+            <p>Información</p>
+        </div>
+
+           </section>
+    <footer>
+        <h2><a href="https://www.asse.com.uy/categoria/Direccion-de-Salud-Mental-320?pagina=1">Internarse de una vez</a></h2>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
